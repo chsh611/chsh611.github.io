@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>최승희의 홈페이지에 도신걸 환영합니다!</title>
-<script src="./main.js"></script>
+	<title>최승희의 홈페이지에 도신걸 환영합니다!</title>
+	<script src="./main.js"></script>
+	<style>
+		* { margin:0px;
+			padding:0px;}
+		#myphoto {
+			width:500px;
+			margin: 20px auto 0px auto;
+			padding:20px;
+			background-color : #888888;
+			border:1px solid #eeeeee;
+			text-align:center;
+		}
+			#myphoto img {
+				width:420px;
+				height:315px;
+				border-top:5px solid #cc33db;
+				border-left:5px dotted #cc33db;
+				border-right:5px dashed #990099;
+				border-bottom:5px double #990099;
+			} 
+	</style>
 </head>
 <body>
 	<h1>Hello, world!</h1>
 	<p>안녕 내이름은 타이젠 예제야</p>
-	<img src="./images/sample-4.jpg" style="width:420px; height:315px;"
-	alt="Sample image!" title="It's Sample Image.">
+	<div id="myphoto">
+		<img src="./images/sample-4.jpg"
+			alt="Sample image!" title="It's Sample Image.">
+	</div>
 
 </body>
 </html>
