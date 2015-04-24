@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+* { margin:0px;	padding:0px;}
+		#myphoto, #myinfo {
+			width:500px;
+			margin: 20px auto 0px auto;
+			padding:20px;
+			background-color : #888888;
+			border:1px solid #eeeeee;
+			text-align:center;
+		}
+			#myphoto > img {
+				width:420px;
+				height:315px;
+				border-top:5px solid #cc33db;
+				border-left:5px dotted #cc33db;
+				border-right:5px dashed #990099;
+				border-bottom:5px double #990099;
+			} 
+		
+		#myinfo {
+			border-bottom : 10px solid #ff0000;
+			font-size:1.5em;
+			text-align:left;			
+		}
+			#myinfo ul{
+				list-style:square;
+				margin-left:80px;
+			}
+					#myinfo > ul > li > span.label{
+						text-deration:underline;
+					}
+					
+					#myinfo > ul > li > span.content{
+						font-weight: bold;
+					}
